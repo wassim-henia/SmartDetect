@@ -90,7 +90,7 @@ const Image = tw.img`w-144 ml-auto`
               <HorizontalBarSeries color="#f50057"  data={[{y: "Corona", x: 40},{y: "protestation", x: 55},{y: "Politic", x: 30} ]} />
               <HorizontalBarSeries data={[{y: "Corona", x: 60},{y: "protestation", x: 45},{y: "Politic", x: 70} ]} />
             </XYPlot>
-            <h1>hello</h1>
+            
           </Grid>
         </Grid>
       </div>

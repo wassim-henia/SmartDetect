@@ -28,8 +28,8 @@ export default function MainPage(){
         />
         
         <MainFeature 
-          subheading="Reliable"
-          heading="Highly Redundant Servers With Backup"
+          subheading="Real Time"
+          heading="Our platform analyse real time data from social media to detect fake news early"
           imageSrc={serverRedundancyIllustrationImageSrc}
           buttonRounded={false}
         />

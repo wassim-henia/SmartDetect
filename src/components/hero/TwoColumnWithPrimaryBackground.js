@@ -39,14 +39,13 @@ export default ({
 }) => {
   const logoLink = (
     <LogoLink href="/">
-      <img src={logoImageSrc} alt="Logo" />
-      Treact
+      
+      SmartDetect
     </LogoLink>
   );
   const navLinks = [
     <NavLinks key={1}>
       <NavLink href="#features">Features</NavLink>
-      <NavLink href="#">Pricing</NavLink>
       <NavLink href="/login">Login</NavLink>
       <PrimaryLink href="#">Signup</PrimaryLink>
     </NavLinks>
