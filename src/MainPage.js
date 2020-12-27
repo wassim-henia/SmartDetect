@@ -16,8 +16,8 @@ export default function MainPage(){
     return (
     <AnimationRevealPage>
         <Hero 
-        heading="hello"
-        description="XXXXXX is an artificial intelligence powered platfrom that helps the goverment to detetct fake news in trending posts on social media"
+        heading="SmartDetect"
+        description="SmartDetect is an artificial intelligence powered platfrom that helps the goverment to detetct fake news in trending posts on social media"
         primaryButtonText="Learn more"
         primaryButtonUrl="#features"
         
@@ -34,15 +34,13 @@ export default function MainPage(){
           buttonRounded={false}
         />
         <MainFeature 
-          subheading="Secure"
-          heading="State of the Art Computer Security"
+          subheading="Machine Learning"
+          heading="State of the Art Machine Learning Algorithms"
           imageSrc={serverSecureIllustrationImageSrc}
           buttonRounded={false}
           textOnLeft={false}
         />
-        <Testimonial />
-        <FAQ />
-        <Footer />
+        
       </AnimationRevealPage>
       )
 }

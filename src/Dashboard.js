@@ -58,8 +58,8 @@ const Image = tw.img`w-144 ml-auto`
  export default function Dashboard(){
     const logoLink = (
         <LogoLink href="/">
-          <img src={logoImageSrc} alt="Logo" />
-          Treact
+          
+          SmartDetect
         </LogoLink>
       );
       const navLinks = [
